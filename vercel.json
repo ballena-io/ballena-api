@@ -9,7 +9,7 @@
   ],
   "headers": [
     {
-      "source": "/api/v1/(.*)",
+      "source": "/v1/(.*)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
