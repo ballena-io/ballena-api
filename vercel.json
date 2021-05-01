@@ -1,6 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/v1/:match*",
+      "destination": "/api/v1/:match*"
+    }
+  ],
   "headers": [
     {
       "source": "/api/v1/(.*)",

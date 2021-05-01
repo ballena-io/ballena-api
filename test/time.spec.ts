@@ -1,4 +1,4 @@
-import * as time from '../api/time'
+import * as time from '../api/v1/time'
 
 describe('Test time API', () => {
   it('sould get time', async () => {
